@@ -1,0 +1,18 @@
+/* CSS styling for the Grid 2*2 boxes*/
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  margin-left: 20px;
+}
+/* CSS styling for the each box*/
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid grey;
+  background-color: white;
+  cursor: pointer;
+}
+/* CSS styling for the when each box is clicked*/
+.box.on {
+  background-color: black;
+}
